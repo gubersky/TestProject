@@ -4,13 +4,8 @@ public abstract class Animal {
 
     public String name;
 
-    public Animal(String name) {
-        this.name = name;
-    }
+    public  void sound() {
 
-    protected Animal() {
     }
-
-    public abstract void sound();
 
 }
